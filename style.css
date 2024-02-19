@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(75, 64, 64);
+  height: 100vh;
+  align-items: center;
+}
+#wrapper {
+  /* border: 1px solid black; */
+  overflow-y: auto;
+  width: 500px;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+}
+h2 {
+  color: rgb(2, 2, 85);
+  padding: 10px;
+}
+.mainDiv {
+  width: 100%;
+  margin-bottom: 20px;
+  padding-bottom: 40px;
+  border-bottom: 2px solid black;
+}
+input[type="text"] {
+  width: 83%;
+  outline: 0;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 6px 10px;
+}
+#btn {
+  background-color: rgb(2, 2, 85);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 6px 10px;
+}
+button {
+  cursor: pointer;
+}
+.contentDiv {
+    margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;  
+  justify-content: space-between;
+}
+#checkbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border: 1px solid rgb(139, 127, 127);
+  width: 70%;
+  font-size: medium;
+  font-weight: 600;
+  padding: 5px 8px;
+}
+#checkbox p {
+    width: 95%;
+  text-align: start;
+  padding-left: 10px;
+}
+
+.edit,
+.del {
+  font-size: medium;
+  font-weight: 600;
+  padding: 5px 10px;
+}
+.checked{
+  color: rgb(117, 115, 115);
+  text-decoration:line-through;
+}
