@@ -4,81 +4,52 @@
   box-sizing: border-box;
 }
 body {
-  padding-top: 20px;
   display: flex;
   justify-content: center;
-  flex-direction: column;
   align-items: center;
   background-color: rgb(75, 64, 64);
   height: 100vh;
-  align-items: center;
 }
-#wrapper {
-  /* border: 1px solid black; */
-  overflow-y: auto;
-  width: 500px;
-  border-radius: 5px;
-  padding: 20px;
+#wrapper{
   background-color: white;
   text-align: center;
+  width: 400px;
 }
-h2 {
-  color: rgb(2, 2, 85);
-  padding: 10px;
-}
-.mainDiv {
-  width: 100%;
+ul{
   margin-bottom: 20px;
-  padding-bottom: 40px;
-  border-bottom: 2px solid black;
-}
-input[type="text"] {
-  width: 83%;
-  outline: 0;
-  font-size: 16px;
-  font-weight: 600;
-  padding: 6px 10px;
-}
-#btn {
-  background-color: rgb(2, 2, 85);
-  color: white;
-  font-size: 16px;
-  font-weight: 600;
-  padding: 6px 10px;
-}
-button {
-  cursor: pointer;
-}
-.contentDiv {
-    margin-bottom: 10px;
-  display: flex;
-  flex-direction: row;
-  width: 100%;  
-  justify-content: space-between;
-}
-#checkbox {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  border: 1px solid rgb(139, 127, 127);
-  width: 70%;
-  font-size: medium;
-  font-weight: 600;
-  padding: 5px 8px;
-}
-#checkbox p {
-    width: 95%;
   text-align: start;
-  padding-left: 10px;
 }
-
-.edit,
-.del {
-  font-size: medium;
+h2{
+  text-align: start;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+li{
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  font-size: large;
   font-weight: 600;
-  padding: 5px 10px;
+  background-color: rgb(166, 208, 246);
 }
-.checked{
-  color: rgb(117, 115, 115);
-  text-decoration:line-through;
+li label{
+  margin-left: 10px;
+}
+button{
+  padding: 6px 15px;
+  font-size: larger;
+  font-weight: 600;
+  text-align: center;
+  /* margin-left: 35%; */
+  margin-bottom: 20px;
+  background-color: rgb(232, 14, 14);
+  color: white;
+  border: none;
+}
+.result{
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  padding: 20px;
+  background-color: rgb(243, 142, 142);
 }
